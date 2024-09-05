@@ -63,3 +63,21 @@ button:active {
 .operator-button:active {
     background-color: hsl(35, 100%, 70%);
 }
+
+@media (max-width: 500px) {
+    #calculator {
+        max-width: 100%;
+    }
+
+    #display {
+        font-size: 3rem;
+        padding: 20px;
+    }
+
+    button {
+        width: 100%;
+        height: 100%;
+        font-size: 2rem;
+        padding: 25px;
+    }
+}
